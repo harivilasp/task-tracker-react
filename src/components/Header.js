@@ -1,4 +1,4 @@
-export const Header = (props) => {
+const Header = (props) => {
     return (
         <header>
             <h1> Task Tracker</h1>
@@ -11,3 +11,4 @@ Header.defaultProps = {
     title:'Task Tracker',
 }
 
+export default Header;
